@@ -6,7 +6,6 @@ export default function Homepage() {
         <div>
             <Navbar />
 
-            {/* Hero Section */}
             <div className="flex flex-col items-center justify-center min-h-screen bg-white">
                 <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl">
                     <div className="md:w-1/2 text-left">
@@ -47,7 +46,6 @@ export default function Homepage() {
         </div>
     </div>
 </section>
-            {/* Competitions & Achievements (Image Right) */}
             <section className="bg-white pt-20 pb-16">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row items-start justify-between">
@@ -78,7 +76,7 @@ export default function Homepage() {
                     </div>
                 </div>
             </section>
-{/* Member Statistics Section */}
+
 <section className="bg-gray-100 py-14">
   <div className="container mx-auto px-4 text-center">
     <h2 className="text-3xl font-bold mb-12">Member Statistics</h2>
@@ -107,7 +105,7 @@ export default function Homepage() {
   </div>
 </section>
 
-            {/* Event Gallery */}
+      
             <section className="bg-white py-14">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl font-bold mb-16">Event Gallery</h2>
@@ -119,7 +117,6 @@ export default function Homepage() {
                 </div>
             </section>
 
-            {/* FIC & Coordinators */}
            <section className="bg-white py-[75px]">
   <div className="container mx-auto px-4 text-center">
     <h2 className="text-3xl font-bold mb-6">FIC & COORDINATORS</h2>
