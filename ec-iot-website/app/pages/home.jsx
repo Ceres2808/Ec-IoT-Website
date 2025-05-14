@@ -25,12 +25,12 @@ export default function Homepage() {
                     </div>
                 </div>
             </div>
-<section className="bg-white py-10">
+<section className="bg-white py-10" >
     <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
-            <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0 mt-[93px]">
+            <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0 mt-[60px]">
                 <img
-                    src="workshoppic1.png"
+                    src="electronics.jpeg"
                     alt="About Us"
                     className="max-w-md w-3/4 h-auto rounded-lg shadow-lg hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300"
                 />
@@ -70,9 +70,9 @@ export default function Homepage() {
                         </div>
                         <div className="w-full md:w-1/2 flex justify-center  mt-48">
                             <img
-                                src="/images/project2.jpg"
+                                src="workshoppic1.png"
                                 alt="Competition"
-                                className="max-w-md w-3/4 h-auto rounded-lg shadow-lg"
+                                className="max-w-md w-3/4 h-[300px] rounded-lg shadow-lg hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300"
                             />
                         </div>
                     </div>
@@ -112,8 +112,8 @@ export default function Homepage() {
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl font-bold mb-16">Event Gallery</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <img src="workshoppic1.png" alt="Gallery 1" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover rounded-lg shadow-md" />
-                        <img src="Picture2.jpg" alt="Gallery 2" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover rounded-lg shadow-md" />
+                        <img src="Picture2.jpg" alt="Gallery 1" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover rounded-lg shadow-md" />
+                        <img src="Picture4.jpg" alt="Gallery 2" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover rounded-lg shadow-md" />
                         <img src="Picture3.jpg" alt="Gallery 3" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover rounded-lg shadow-md" />
                     </div>
                 </div>
