@@ -21,7 +21,7 @@ const projects = [
 export default function Projects() {
     return (
         <div className="p-8 flex flex-col items-center">
-            <h1 className="text-4xl font-bold mb-12 text-center">OUR PROJECTS</h1>
+            <h1 className="text-4xl font-bold my-20 text-center">OUR PROJECTS</h1>
             <div className="w-full flex flex-col gap-8 items-center">
                 {projects.map((project, index) => (
                     <div

@@ -6,13 +6,16 @@ const About = () => {
             <div className="text-center max-w-4xl font-sans">
                 <h1 className="text-4xl font-bold mb-8 text-black">ABOUT US</h1>
                 <p className="mb-6 text-gray-700">
-                    Welcome to our IoT solutions platform! At Ec-IoT, we are dedicated to revolutionizing the way people interact with technology by providing cutting-edge Internet of Things (IoT) solutions. Our mission is to empower businesses and individuals with smart, efficient, and sustainable IoT technologies that enhance everyday life.
+                    The Electronics and IoT Club aims to foster innovation, hands-on learning, and collaboration among enthusiasts of electronics and IoT technologies.
                 </p>
                 <p className="mb-6 text-gray-700">
-                    With a team of passionate innovators and industry experts, we strive to deliver high-quality products and services tailored to meet the unique needs of our clients. From smart home automation to industrial IoT applications, we are committed to driving innovation and creating a connected future.
+                    Our mission is to empower students with practical skills in electronics, microcontrollers, and IoT applications, preparing them for real-world challenges.
+                </p>
+                <p className="mb-6 text-gray-700">
+                    Through workshops, projects, and competitions, we provide a platform to explore and apply cutting-edge technologies in fields such as smart devices, automation, and connectivity.
                 </p>
                 <p className="text-gray-700">
-                    Thank you for choosing Ec-IoT. Together, let's build a smarter and more connected world.
+                    Core Focus Areas: Electronics and Electrical systems
                 </p>
             </div>
         </div>

@@ -7,7 +7,7 @@ export default function Homepage() {
             <div className="flex flex-col items-center justify-center min-h-screen bg-white">
                 <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl">
                     <div className="md:w-1/2 text-left">
-                        <h1 className="text-7xl font-bold mb-4 mx-8 text-gray-700">ELECTRONICS & IOT CLUB</h1>
+                        <h1 className="text-5xl md:text-7xl font-bold mb-4 mx-8 text-gray-700">ELECTRONICS & IOT CLUB</h1>
                         <p className="text-2xl font-bold text-gray-500 mb-8 mx-8">IIT (ISM) DHANBAD</p>
                         <button className="bg-blue-500 text-white px-6 py-3 hover:bg-blue-600 transition duration-300 mx-8">
                             OUR PROJECTS
@@ -77,7 +77,7 @@ export default function Homepage() {
 
 <section className="bg-gray-100 py-14">
   <div className="container mx-auto px-4 text-center">
-    <h2 className="text-3xl font-bold mb-12">Member Statistics</h2>
+    <h2 className="text-3xl font-bold mb-12">MEMBER STATISTICS</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
       <div className="bg-white shadow-md p-6 hover:shadow-xl transition">
         <h3 className="text-xl font-bold text-gray-800 mb-2">First Year(B.TECH)</h3>
@@ -106,7 +106,7 @@ export default function Homepage() {
       
             <section className="bg-white py-14">
                 <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-3xl font-bold mb-16">Event Gallery</h2>
+                    <h2 className="text-3xl font-bold mb-16">EVENT GALLERY</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <img src="Picture2.jpg" alt="Gallery 1" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover  -lg shadow-md" />
                         <img src="Picture4.jpg" alt="Gallery 2" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover  -lg shadow-md" />

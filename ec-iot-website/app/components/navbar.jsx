@@ -63,7 +63,7 @@ export default function Navbar({ onSelectPage }) {
                     <div className="md:hidden">
                         <button
                             onClick={toggleMenu}
-                            className="text-gray-300 hover:text-white focus:outline-none"
+                            className="text-gray-500 hover:focus:outline-none"
                             aria-label="Toggle menu"
                             aria-expanded={isOpen}
                         >
@@ -103,7 +103,7 @@ export default function Navbar({ onSelectPage }) {
                                     onSelectPage("home");
                                     toggleMenu();
                                 }}
-                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                                className="block hover:text-gray-300 px-3 py-2 rounded-md"
                             >
                                 Home
                             </button>
@@ -114,7 +114,7 @@ export default function Navbar({ onSelectPage }) {
                                     onSelectPage("about");
                                     toggleMenu();
                                 }}
-                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                                className="block hover:text-gray-300 px-3 py-2 rounded-md"
                             >
                                 About
                             </button>
@@ -125,7 +125,7 @@ export default function Navbar({ onSelectPage }) {
                                     onSelectPage("projects");
                                     toggleMenu();
                                 }}
-                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                                className="block hover:text-gray-300 px-3 py-2 rounded-md"
                             >
                                 Projects
                             </button>
@@ -136,7 +136,7 @@ export default function Navbar({ onSelectPage }) {
                                     onSelectPage("events");
                                     toggleMenu();
                                 }}
-                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                                className="block hover:text-gray-300 px-3 py-2 rounded-md"
                             >
                                 Events
                             </button>
@@ -147,7 +147,7 @@ export default function Navbar({ onSelectPage }) {
                                     onSelectPage("achievements");
                                     toggleMenu();
                                 }}
-                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                                className="block hover:text-gray-300 px-3 py-2 rounded-md"
                             >
                                 Achievements
                             </button>
@@ -158,7 +158,7 @@ export default function Navbar({ onSelectPage }) {
                                     onSelectPage("members");
                                     toggleMenu();
                                 }}
-                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                                className="block hover:text-gray-300 px-3 py-2 rounded-md"
                             >
                                 Members
                             </button>
@@ -166,10 +166,10 @@ export default function Navbar({ onSelectPage }) {
                         <li>
                             <button
                                 onClick={() => {
-                                    onSelectPage("contact us");
+                                    onSelectPage("contact");
                                     toggleMenu();
                                 }}
-                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                                className="block hover:text-gray-300 px-3 py-2 rounded-md"
                             >
                                 Contact Us
                             </button>

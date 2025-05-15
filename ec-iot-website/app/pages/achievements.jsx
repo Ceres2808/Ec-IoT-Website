@@ -6,7 +6,7 @@ const Achievements = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row items-start justify-between">
                         <div className="w-full md:w-1/2 md:pr-12 ml-4 md:ml-12">
-                            <h2 className="text-3xl font-bold mb-12 text-center md:text-left"> ACHIEVEMENTS & COMPETITIONS </h2>
+                            <h2 className="text-4xl font-bold my-20 text-center md:text-left"> ACHIEVEMENTS & COMPETITIONS </h2>
                             <h3 className="text-xl font-bold mb-4">COMPETITIONS</h3>
                             <ul className="list-disc list-inside text-lg text-gray-500">
                                 <li>Participated in Eyantra 2023-24 as a team. Problem Statement was Lunar Scout Bot. Developed Matlab Models of Rotary Inverted Pendulum, used LQR Control Strategy, Worked with hardware in Stage 2 to Establish Radio Communication using RF modules and Arduino, Building a self Balancing Bot.</li>
