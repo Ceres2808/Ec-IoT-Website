@@ -2,19 +2,14 @@ import Image from 'next/image';
 
 const projects = [
     {
-        title: 'Smart Home Automation',
-        description: 'A project focused on automating home appliances using IoT technology.',
+        title: 'EMI/EMC meter',
+        description: 'A 2nd year club member + a first year group is doing a project of portable EMI/EMC meter that will send alert signal if the EM interference due to nearby transmission systems is greater than the limit.',
         imageUrl: '/images/smart-home.jpg',
     },
     {
-        title: 'IoT Weather Station',
-        description: 'A weather monitoring system that collects and displays real-time data.',
-        imageUrl: '/images/weather-station.jpg',
-    },
-    {
-        title: 'Connected Healthcare',
-        description: 'An IoT solution for remote health monitoring and patient care.',
-        imageUrl: '/images/connected-healthcare.jpg',
+        title: 'RFID Security system',
+        description: '1st years under the guidance of prof. Manodipan Sahoo working on RFID Security system.',
+        imageUrl: '/images/rfid.jpg',
     },
 ];
 

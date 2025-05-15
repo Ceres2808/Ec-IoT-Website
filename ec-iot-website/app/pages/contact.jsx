@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Instagram, Linkedin } from 'lucide-react';
+import { FaEnvelope, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Contact = () => {
     return (
@@ -9,14 +9,14 @@ const Contact = () => {
 
                 <div className="space-y-6 text-gray-700">
                     <div className="flex justify-center items-center space-x-3">
-                        <Mail size={24} className="text-blue-600" />
+                        <FaEnvelope size={24} className="text-blue-600" />
                         <a href="mailto:electronics.club.iitism@gmail.com" className="text-blue-600 underline text-lg">
                             electronics.club.iitism@gmail.com
                         </a>
                     </div>
 
                     <div className="flex justify-center items-center space-x-3">
-                        <Instagram size={24} className="text-pink-500" />
+                        <FaInstagram size={24} className="text-pink-500" />
                         <a
                             href="https://www.instagram.com/electronicsandiotclubiitism/"
                             target="_blank"
@@ -28,7 +28,7 @@ const Contact = () => {
                     </div>
 
                     <div className="flex justify-center items-center space-x-3">
-                        <Linkedin size={24} className="text-blue-700" />
+                        <FaLinkedinIn size={24} className="text-blue-700" />
                         <a
                             href="https://www.linkedin.com/company/electronics-club-iitism-dhanbad/"
                             target="_blank"

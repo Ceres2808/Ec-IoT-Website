@@ -26,7 +26,7 @@ const Achievements = () => {
                             <img
                                 src="workshoppic1.png"
                                 alt="Competition"
-                                className="max-w-md w-3/4 h-[300px] shadow-lg hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300"
+                                className="max-w-md w-3/4"
                             />
                         </div>
                     </div>

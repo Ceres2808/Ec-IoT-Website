@@ -8,45 +8,149 @@ const Members = () => {
 
             {/* FIC Section */}
             <section className="w-full max-w-6xl mb-16">
-                <h2 className="text-2xl font-semibold mb-8">Faculty In-Charge (FIC)</h2>
+                <h2 className="text-2xl font-semibold mb-8">FACULTY IN-CHARGE (FIC)</h2>
                 <div className="flex flex-wrap justify-center gap-8">
                     <FaceCard
                         image="FIC.jpg"
-                        name="FIC Name"
-                        designation="Designation"
-                        github="https://github.com/fic-profile"
-                        linkedin="https://linkedin.com/in/fic-profile"
+                        name="Dr. Manodipan Sahoo"
+                        role=" FACULTY IN-CHARGE"
+                        githubLink="https://github.com/fic-profile"
+                        linkedinLink="https://linkedin.com/in/fic-profile"
                         email="fic@example.com"
                     />
                 </div>
             </section>
 
-            {/* Co-Coordinators Section */}
+            {/* Coordinators Section */}
             <section className="w-full max-w-6xl mb-16">
-                <h2 className="text-2xl font-semibold mb-8">Co-Coordinators</h2>
+                <h2 className="text-2xl font-semibold mb-8">COORDINATORS</h2>
                 <div className="flex flex-wrap justify-center gap-8">
                     <FaceCard
                         image="coordinator.jpg"
-                        name="Coordinator Name"
-                        designation="Role"
-                        github="https://github.com/coordinator-profile"
-                        linkedin="https://linkedin.com/in/coordinator-profile"
+                        name="Ashutosh Rath"
+                        role="COORDINATOR"
+                        githubLink="https://github.com/coordinator-profile"
+                        linkedinLink="https://www.linkedin.com/in/ashutosh-rath-a6438928b/"
                         email="coordinator@example.com"
+                    />
+                    <FaceCard
+                        image="co-coordinator.png"
+                        name="Prantik Basu"
+                        role=" CO-COORDINATOR"
+                        githubLink="https://github.com/member-profile"
+                        linkedinLink="https://www.linkedin.com/in/basuprantik/"
+                        email="prantikbasu23@gmail.com"
                     />
                 </div>
             </section>
 
             {/* Members Section */}
             <section className="w-full max-w-6xl">
-                <h2 className="text-2xl font-semibold mb-8">Members</h2>
+                <h2 className="text-2xl font-semibold mb-8">MEMBERS</h2>
                 <div className="flex flex-wrap justify-center gap-8">
                     <FaceCard
-                        image="co-coordinator.jpg"
+                        image="/pictures/example.jpeg"
                         name="Member Name"
-                        designation="Role"
+                        role="MEMBER"
                         github="https://github.com/member-profile"
                         linkedin="https://linkedin.com/in/member-profile"
-                        email="member@example.com"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
+                    />
+                    <FaceCard
+                        image="/pictures/example.jpeg"
+                        name="Member Name"
+                        role="MEMBER"
+                        github="https://github.com/member-profile"
+                        linkedin="https://linkedin.com/in/member-profile"
+                        email="beraaritra28@gmail.com"
                     />
                 </div>
             </section>

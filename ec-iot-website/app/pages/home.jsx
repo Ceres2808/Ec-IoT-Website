@@ -29,7 +29,7 @@ export default function Homepage() {
                 <img
                     src="electronics.jpeg"
                     alt="About Us"
-                    className="max-w-md w-3/4 h-auto shadow-lg hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300"
+                    className="max-w-md w-3/4 h-auto shadow-lg"
                 />
             </div>
             <div className="w-full md:w-1/2 text-left md:pl-12">
@@ -68,7 +68,7 @@ export default function Homepage() {
                             <img
                                 src="workshoppic1.png"
                                 alt="Competition"
-                                className="max-w-md w-3/4 h-[300px] shadow-lg hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300"
+                                className="max-w-md w-3/4 shadow-lg"
                             />
                         </div>
                     </div>
@@ -79,23 +79,23 @@ export default function Homepage() {
   <div className="container mx-auto px-4 text-center">
     <h2 className="text-3xl font-bold mb-12">MEMBER STATISTICS</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-      <div className="bg-white shadow-md p-6 hover:shadow-xl transition">
+      <div className="bg-white shadow-md p-6">
         <h3 className="text-xl font-bold text-gray-800 mb-2">First Year(B.TECH)</h3>
         <p className="text-2xl font-semibold text-blue-600">26</p>
       </div>
-      <div className="bg-white shadow-md p-6 hover:shadow-xl transition">
+      <div className="bg-white shadow-md p-6">
         <h3 className="text-xl font-bold text-gray-800 mb-2">Second Year(B.TECH)</h3>
         <p className="text-2xl font-semibold text-green-600">22</p>
       </div>
-      <div className="bg-white shadow-md p-6 hover:shadow-xl transition">
+      <div className="bg-white shadow-md p-6">
         <h3 className="text-xl font-bold text-gray-800 mb-2">Third Year(B.TECH)</h3>
         <p className="text-2xl font-semibold text-purple-600">12</p>
       </div>
-      <div className="bg-white shadow-md p-6 hover:shadow-xl transition">
+      <div className="bg-white shadow-md p-6">
         <h3 className="text-xl font-bold text-gray-800 mb-2">Fourth Year(B.TECH)</h3>
         <p className="text-2xl font-semibold text-red-600">8</p>
       </div>
-      <div className="bg-white shadow-md p-6 hover:shadow-xl transition">
+      <div className="bg-white shadow-md p-6">
         <h3 className="text-xl font-bold text-gray-800 mb-2">MTech & PHD</h3>
         <p className="text-2xl font-semibold text-yellow-600">5</p>
       </div>
@@ -108,9 +108,9 @@ export default function Homepage() {
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl font-bold mb-16">EVENT GALLERY</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <img src="Picture2.jpg" alt="Gallery 1" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover  -lg shadow-md" />
-                        <img src="Picture4.jpg" alt="Gallery 2" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover  -lg shadow-md" />
-                        <img src="Picture3.jpg" alt="Gallery 3" className="hover:shadow-xl hover:scale-105 focus:scale-105 transition duration-300 w-full h-[380px] object-cover  -lg shadow-md" />
+                        <img src="Picture2.jpg" alt="Gallery 1"/>
+                        <img src="Picture4.jpg" alt="Gallery 2"/>
+                        <img src="Picture3.jpg" alt="Gallery 3"/>
                     </div>
                 </div>
             </section>
@@ -118,27 +118,34 @@ export default function Homepage() {
 
         <section className="bg-white py-[75px]">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6">FIC & COORDINATORS</h2>
+            <h2 className="text-3xl font-bold mb-6">FACULTY IN-CHARGE (FIC)</h2>
             <div className="flex flex-col md:flex-row justify-center items-center gap-8">
               <FaceCard
                 image="FIC.jpg"
                 name="Prof. Manodipan Sahoo"
-                role="FIC"
+                role="FACULTY IN-CHARGE"
                 githubLink="https://www.github.com"
                 linkedinLink="https://www.linkedin.com/in/"
                 email="manodipan@iitism.ac.in"
               />
+            </div>
+          </div>
+        </section>
+<section className="bg-white py-[75px]">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-6">COORDINATORS</h2>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-8">
               <FaceCard
                 image="coordinator.jpg"
-                name="Soumya Ranjan Das"
+                name="Ashutosh Rath"
                 role="COORDINATOR"
                 githubLink="https://www.github.com"
                 linkedinLink="https://www.linkedin.com/in/"
                 email=""
               />
               <FaceCard
-                image="co-coordinator.jpg"
-                name="Harshit Raghuvanshi"
+                image="co-coordinator.png"
+                name="Prantik Basu"
                 role="CO-COORDINATOR"
                 githubLink="https://www.github.com"
                 linkedinLink="https://www.linkedin.com/in/"
