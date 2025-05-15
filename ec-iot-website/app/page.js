@@ -4,6 +4,10 @@ import Homepage from "./pages/home";
 import ContactPage from "./pages/contact"; // Example additional page
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import About from "./pages/about";
+import Projects from "./pages/projects";
+import Events from "./pages/events";
+import Members from "./pages/members";
 
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -12,7 +16,17 @@ export default function Home() {
     switch (selectedPage) {
       case "home":
         return <Homepage />;
-      case "contacts":
+      case "about":
+        return <About />;
+      case "projects":
+        return <Projects />; 
+      case "events":
+        return <Events />;
+      case "achievements":
+        return <Achievements />;
+      case "members":
+        return <Members />;
+      case "contact us":
         return <ContactPage />;
       default:
         return <Homepage />;

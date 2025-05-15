@@ -30,12 +30,6 @@ export default function Navbar({ onSelectPage }) {
                             About
                         </button>
                         <button
-                            onClick={() => onSelectPage("achievements")}
-                            className="hover:text-gray-300"
-                        >
-                            Achievements
-                        </button>
-                        <button
                             onClick={() => onSelectPage("projects")}
                             className="hover:text-gray-300"
                         >
@@ -48,10 +42,22 @@ export default function Navbar({ onSelectPage }) {
                             Events
                         </button>
                         <button
-                            onClick={() => onSelectPage("contacts")}
+                            onClick={() => onSelectPage("achievements")}
                             className="hover:text-gray-300"
                         >
-                            Contacts
+                            Achievements
+                        </button>
+                        <button
+                            onClick={() => onSelectPage("members")}
+                            className="hover:text-gray-300"
+                        >
+                            Members
+                        </button>
+                        <button
+                            onClick={() => onSelectPage("contact us")}
+                            className="hover:text-gray-300"
+                        >
+                            Contact Us
                         </button>
                     </div>
                     <div className="md:hidden">
@@ -116,23 +122,56 @@ export default function Navbar({ onSelectPage }) {
                         <li>
                             <button
                                 onClick={() => {
-                                    onSelectPage("services");
+                                    onSelectPage("projects");
                                     toggleMenu();
                                 }}
                                 className="block hover:bg-gray-700 px-3 py-2 rounded-md"
                             >
-                                Services
+                                Projects
                             </button>
                         </li>
                         <li>
                             <button
                                 onClick={() => {
-                                    onSelectPage("contacts");
+                                    onSelectPage("events");
                                     toggleMenu();
                                 }}
                                 className="block hover:bg-gray-700 px-3 py-2 rounded-md"
                             >
-                                Contacts
+                                Events
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                onClick={() => {
+                                    onSelectPage("achievements");
+                                    toggleMenu();
+                                }}
+                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                            >
+                                Achievements
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                onClick={() => {
+                                    onSelectPage("members");
+                                    toggleMenu();
+                                }}
+                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                            >
+                                Members
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                onClick={() => {
+                                    onSelectPage("contact us");
+                                    toggleMenu();
+                                }}
+                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                            >
+                                Contact Us
                             </button>
                         </li>
                     </ul>
