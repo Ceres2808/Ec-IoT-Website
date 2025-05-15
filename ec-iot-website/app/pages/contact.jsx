@@ -1,26 +1,11 @@
 import FaceCard from "../components/facecard";
 
 
-export default function Homepage() {
+export default function ContactPage() {
     return (
         <div>
             <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-                <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl">
-                    <div className="md:w-1/2 text-left">
-                        <h1 className="text-7xl font-bold mb-4 mx-8 text-gray-700">ELECTRONICS & IOT CLUB</h1>
-                        <p className="text-2xl font-bold text-gray-500 mb-8 mx-8">IIT (ISM) DHANBAD</p>
-                        <button className="bg-blue-500 text-white px-6 py-3 hover:bg-blue-600 transition duration-300 mx-8">
-                            OUR PROJECTS
-                        </button>
-                    </div>
-                    <div className="md:w-1/2 flex justify-center">
-                        <img
-                            src="homepageimg.png"
-                            alt="Homepage Illustration"
-                            className="max-w-md w-3/4 h-auto object-cover"
-                        />
-                    </div>
-                </div>
+                
             </div>
 <section className="bg-white py-10" >
     <div className="container mx-auto px-4">

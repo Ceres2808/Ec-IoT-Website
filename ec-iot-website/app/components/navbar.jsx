@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({ onSelectPage }) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -17,24 +17,42 @@ export default function Navbar() {
                         <div className="text-xl font-bold">ELECTRONICS & IOT CLUB</div>
                     </div>
                     <div className="hidden md:flex space-x-4">
-                        <a href="#" className="hover:text-gray-300">
+                        <button
+                            onClick={() => onSelectPage("home")}
+                            className="hover:text-gray-300"
+                        >
                             Home
-                        </a>
-                        <a href="#" className="hover:text-gray-300">
+                        </button>
+                        <button
+                            onClick={() => onSelectPage("about")}
+                            className="hover:text-gray-300"
+                        >
                             About
-                        </a>
-                        <a href="#" className="hover:text-gray-300">
+                        </button>
+                        <button
+                            onClick={() => onSelectPage("achievements")}
+                            className="hover:text-gray-300"
+                        >
                             Achievements
-                        </a>
-                        <a href="#" className="hover:text-gray-300">
+                        </button>
+                        <button
+                            onClick={() => onSelectPage("projects")}
+                            className="hover:text-gray-300"
+                        >
                             Projects
-                        </a>
-                        <a href="#" className="hover:text-gray-300">
+                        </button>
+                        <button
+                            onClick={() => onSelectPage("events")}
+                            className="hover:text-gray-300"
+                        >
                             Events
-                        </a>
-                        <a href="#" className="hover:text-gray-300">
+                        </button>
+                        <button
+                            onClick={() => onSelectPage("contacts")}
+                            className="hover:text-gray-300"
+                        >
                             Contacts
-                        </a>
+                        </button>
                     </div>
                     <div className="md:hidden">
                         <button
@@ -74,24 +92,48 @@ export default function Navbar() {
                 <div className="md:hidden">
                     <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         <li>
-                            <a href="#" className="block hover:bg-gray-700 px-3 py-2 rounded-md">
+                            <button
+                                onClick={() => {
+                                    onSelectPage("home");
+                                    toggleMenu();
+                                }}
+                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                            >
                                 Home
-                            </a>
+                            </button>
                         </li>
                         <li>
-                            <a href="#" className="block hover:bg-gray-700 px-3 py-2 rounded-md">
+                            <button
+                                onClick={() => {
+                                    onSelectPage("about");
+                                    toggleMenu();
+                                }}
+                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                            >
                                 About
-                            </a>
+                            </button>
                         </li>
                         <li>
-                            <a href="#" className="block hover:bg-gray-700 px-3 py-2 rounded-md">
+                            <button
+                                onClick={() => {
+                                    onSelectPage("services");
+                                    toggleMenu();
+                                }}
+                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                            >
                                 Services
-                            </a>
+                            </button>
                         </li>
                         <li>
-                            <a href="#" className="block hover:bg-gray-700 px-3 py-2 rounded-md">
-                                Contact
-                            </a>
+                            <button
+                                onClick={() => {
+                                    onSelectPage("contacts");
+                                    toggleMenu();
+                                }}
+                                className="block hover:bg-gray-700 px-3 py-2 rounded-md"
+                            >
+                                Contacts
+                            </button>
                         </li>
                     </ul>
                 </div>
