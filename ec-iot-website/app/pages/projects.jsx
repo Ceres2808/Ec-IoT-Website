@@ -20,26 +20,24 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div className="p-5 flex flex-col items-center">
-            <h1 className="text-4xl font-bold my-50 text-center">OUR PROJECTS</h1>
-            <div className="w-full flex flex-col items-center">
+        <div className="p-8 flex flex-col items-center">
+            <h1 className="text-4xl font-bold mb-12 text-center">OUR PROJECTS</h1>
+            <div className="w-full flex flex-col gap-8 items-center">
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="flex flex-row items-center mb-5 p-4 w-3/4"
+                        className="flex flex-col md:flex-row items-center md:items-start bg-gray-100 p-6 rounded-lg w-full md:w-3/4 shadow"
                     >
-                        <div className="mr-4">
-                            <Image
-                                src={project.imageUrl}
-                                alt={project.title}
-                                width={200}
-                                height={150}
-                                className="rounded-lg"
-                            />
-                        </div>
-                        <div>
-                            <h2 className="text-xl font-semibold">{project.title}</h2>
-                            <p className="text-gray-600">{project.description}</p>
+                        <Image
+                            src={project.imageUrl}
+                            alt={project.title}
+                            width={250}
+                            height={180}
+                            className="rounded-lg mb-4 md:mb-0 md:mr-6"
+                        />
+                        <div className="text-center md:text-left">
+                            <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
+                            <p className="text-gray-700">{project.description}</p>
                         </div>
                     </div>
                 ))}

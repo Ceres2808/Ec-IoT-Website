@@ -54,7 +54,7 @@ export default function Navbar({ onSelectPage }) {
                             Members
                         </button>
                         <button
-                            onClick={() => onSelectPage("contact us")}
+                            onClick={() => onSelectPage("contact")}
                             className="hover:text-gray-300"
                         >
                             Contact Us

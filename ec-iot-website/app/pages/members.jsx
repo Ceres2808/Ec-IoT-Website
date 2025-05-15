@@ -1,15 +1,15 @@
 import React from "react";
 import FaceCard from "../components/facecard";
 
-const members = () => {
+const Members = () => {
     return (
-        <div className="container mx-auto px-4 text-center flex flex-col items-center">
-            <h1 className="text-4xl my-50 font-bold">OUR TEAM</h1>
+        <div className="min-h-screen px-6 py-16 flex flex-col items-center text-center">
+            <h1 className="text-4xl font-bold mb-12 mt-12 ">OUR TEAM</h1>
 
             {/* FIC Section */}
-            <section className="my-10 w-full">
-                <h2 className="text-2xl font-semibold mb-6">Faculty In-Charge (FIC)</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center items-center">
+            <section className="w-full max-w-6xl mb-16">
+                <h2 className="text-2xl font-semibold mb-8">Faculty In-Charge (FIC)</h2>
+                <div className="flex flex-wrap justify-center gap-8">
                     <FaceCard
                         image="FIC.jpg"
                         name="FIC Name"
@@ -22,9 +22,9 @@ const members = () => {
             </section>
 
             {/* Co-Coordinators Section */}
-            <section className="my-10 w-full">
-                <h2 className="text-2xl font-semibold mb-6">Co-Coordinators</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center items-center">
+            <section className="w-full max-w-6xl mb-16">
+                <h2 className="text-2xl font-semibold mb-8">Co-Coordinators</h2>
+                <div className="flex flex-wrap justify-center gap-8">
                     <FaceCard
                         image="coordinator.jpg"
                         name="Coordinator Name"
@@ -37,9 +37,9 @@ const members = () => {
             </section>
 
             {/* Members Section */}
-            <section className="my-10 w-full">
-                <h2 className="text-2xl font-semibold mb-6">Members</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center items-center">
+            <section className="w-full max-w-6xl">
+                <h2 className="text-2xl font-semibold mb-8">Members</h2>
+                <div className="flex flex-wrap justify-center gap-8">
                     <FaceCard
                         image="co-coordinator.jpg"
                         name="Member Name"
@@ -54,4 +54,4 @@ const members = () => {
     );
 };
 
-export default members;
+export default Members;
