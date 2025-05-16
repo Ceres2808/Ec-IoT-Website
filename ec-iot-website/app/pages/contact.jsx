@@ -8,13 +8,13 @@ const Contact = () => {
     {
       name: "Ashutosh Rath",
       role: "Coordinator",
-      email: "coordinator@example.com",
+      email: "23je0178@iitism.ac.in",
       linkedin: "https://www.linkedin.com/in/ashutosh-rath-a6438928b/"
     },
     {
       name: "Prantik Basu",
       role: "Co-coordinator",
-      email: "co-coordinator@example.com",
+      email: "prantikbasu23@gmail.com",
       linkedin: "https://www.linkedin.com/in/basuprantik/"
     }
   ];
@@ -30,7 +30,7 @@ const Contact = () => {
       label: 'Email',
       value: 'electronics.club.iitism@gmail.com',
       link: 'mailto:electronics.club.iitism@gmail.com',
-      color: 'bg-blue-50 text-blue-700 border-blue-200'
+      color: 'bg-red-50 text-red-700 border-red-200'
     },
     {
       id: 'instagram',

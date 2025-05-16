@@ -103,8 +103,7 @@ export default function Homepage() {
                   than the limit.
                 </li>
                 <li>
-                  1st years under the guidance of prof. Manodipan Sahoo working
-                  on RFID Security system.
+                  First-year students are working under the guidance of Professor Manodipan Sahoo on the development of an RFID-based security system.
                 </li>
               </ul>
             </div>
@@ -192,16 +191,16 @@ export default function Homepage() {
               name="Ashutosh Rath"
               role="COORDINATOR"
               githubLink="https://www.github.com"
-              linkedinLink="https://www.linkedin.com/in/"
-              email=""
+              linkedinLink="https://www.linkedin.com/in/ashutosh-rath-a6438928b/"
+              email="23je0178@iitism.ac.in"
             />
             <FaceCard
               image="co-coordinator.png"
               name="Prantik Basu"
               role="CO-COORDINATOR"
               githubLink="https://www.github.com"
-              linkedinLink="https://www.linkedin.com/in/"
-              email="electronics.club.iitism@gmail.com"
+              linkedinLink="https://www.linkedin.com/in/basuprantik/"
+              email="prantikbasu23@gmail.com"
             />
           </div>
         </div>
