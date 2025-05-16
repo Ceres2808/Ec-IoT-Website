@@ -1,6 +1,6 @@
 import React from "react";
 import FaceCard from "../components/facecard";
-
+import MembersSection from "../components/members.jsx";
 const Members = () => {
     return (
         <div className="min-h-screen px-6 py-16 flex flex-col items-center text-center">
@@ -45,7 +45,7 @@ const Members = () => {
             </section>
 
             {/* Members Section */}
-            <section className="w-full max-w-6xl">
+            {/*<section className="w-full max-w-6xl">
                 <h2 className="text-2xl font-semibold mb-8">MEMBERS</h2>
                 <div className="flex flex-wrap justify-center gap-8">
                     <FaceCard
@@ -153,7 +153,8 @@ const Members = () => {
                         email="beraaritra28@gmail.com"
                     />
                 </div>
-            </section>
+            </section>*/}
+            <MembersSection/>
         </div>
     );
 };
