@@ -6,6 +6,30 @@ export default function Homepage() {
 
   return (
     <div>
+      {/* Video Overlay */}
+      {showVideo && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="relative bg-white rounded shadow-lg p-2 w-80">
+            <button
+              type="button"
+              className="absolute top-1 right-2 text-gray-600 hover:text-gray-900 text-2xl font-bold z-10 bg-white border w-8 h-8 rounded-full"
+              onClick={() => setShowVideo(false)}
+              aria-label="Close"
+              tabIndex={0}
+            >
+              &times;
+            </button>
+            <video
+              src="video.mp4"
+              controls
+              autoPlay
+              className="w-full rounded"
+              style={{ maxHeight: "600px" }}
+            />
+          </div>
+        </div>
+      )}
+
       <div className="flex flex-col items-center justify-center min-h-screen bg-white">
         <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl">
           <div className="md:w-1/2 text-left">
@@ -17,13 +41,7 @@ export default function Homepage() {
             </p>
             <button
               className="bg-blue-500 text-white px-6 py-3 hover:bg-blue-600 transition duration-300 mx-8"
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/1TFR9rHxGt66-isQ96rcNzp_nI1tgKtLn/view?usp=drivesdk",
-                  "_blank",
-                  "noopener,noreferrer"
-                )
-              }
+              onClick={() => setShowVideo(true)}
             >
               OUR PROJECTS
             </button>
@@ -37,7 +55,6 @@ export default function Homepage() {
           </div>
         </div>
       </div>
-      {/* ...rest of your code remains unchanged... */}
       <section className="bg-white py-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
