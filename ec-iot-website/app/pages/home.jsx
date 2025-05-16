@@ -1,6 +1,9 @@
 import FaceCard from "../components/facecard";
+import { useState } from "react";
 
 export default function Homepage() {
+  const [showVideo, setShowVideo] = useState(false);
+
   return (
     <div>
       <div className="flex flex-col items-center justify-center min-h-screen bg-white">
@@ -12,10 +15,17 @@ export default function Homepage() {
             <p className="text-2xl font-bold text-gray-500 mb-8 mx-8">
               IIT (ISM) DHANBAD
             </p>
-            <button className="bg-blue-500 text-white px-6 py-3 hover:bg-blue-600 transition duration-300 mx-8">
-              <a href="https://drive.google.com/drive/folders/12dB-cnjgOOOOFjRoQQgKkTWG5ZNvQoks">
-                OUR PROJECTS
-              </a>
+            <button
+              className="bg-blue-500 text-white px-6 py-3 hover:bg-blue-600 transition duration-300 mx-8"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1TFR9rHxGt66-isQ96rcNzp_nI1tgKtLn/view?usp=drivesdk",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              OUR PROJECTS
             </button>
           </div>
           <div className="md:w-1/2 flex justify-center">
@@ -27,6 +37,7 @@ export default function Homepage() {
           </div>
         </div>
       </div>
+      {/* ...rest of your code remains unchanged... */}
       <section className="bg-white py-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
