@@ -98,9 +98,7 @@ export default function ContactPage() {
                   How can I join the club?
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Membership applications open at the beginning of each semester. Visit our office or check our website
-                  for the application form. After submitting your application, you'll be invited to an orientation
-                  session.
+                  Membership applications open near the end of monsoon semester or the beginning of the winter semester. You will be notified through whatsapp groups and instagram posts.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-800">
@@ -122,33 +120,14 @@ export default function ContactPage() {
                 </p>
               </div>
             </div>
-            <div className="space-y-4">
-              <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-800">
-                <h3 className="text-lg font-semibold mb-2 text-blue-600 dark:text-blue-400">
-                  Can I use the lab equipment outside of club activities?
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Yes, members have access to the lab during designated hours for personal projects. You'll need to
-                  complete a safety training session before using certain equipment.
-                </p>
-              </div>
+            <div className="space-y-4">              
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-800">
                 <h3 className="text-lg font-semibold mb-2 text-blue-600 dark:text-blue-400">
                   How can I propose a new project idea?
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  We encourage members to propose new project ideas! Submit your proposal to the Technical Head or bring
-                  it up during our monthly project planning meetings. If approved, you'll receive resources and team
+                  We encourage members to propose new project ideas! Submit your proposal to your seniors. If approved, you'll receive resources and team
                   members to help bring your idea to life.
-                </p>
-              </div>
-              <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-800">
-                <h3 className="text-lg font-semibold mb-2 text-blue-600 dark:text-blue-400">
-                  Are there opportunities for industry internships through the club?
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Yes, we have partnerships with several companies that offer internships to our active members. We also
-                  regularly share internship and job opportunities from our industry contacts and alumni network.
                 </p>
               </div>
             </div>

@@ -32,21 +32,21 @@ export default function EventsPage() {
               description="Conducted by Prof. Kishore Nandapurkar and Prof. Manodipan Sahoo, covering both theory and practical aspects"
               date="September 2024"
               location="IIT ISM Dhanbad"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/event1.png"
             />
             <EventCard
               title="Internal Workshop on Arduino"
               description="Workshop on Motor and motor drivers with Arduino conducted by pre-final year BTech students"
               date="February 2024"
               location="IIT ISM Dhanbad"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/event2.png"
             />
             <EventCard
               title="Workshop on LTSPICE"
               description="Conducted by 4th year BTech club seniors with internship experience using the software"
               date="March 2024"
               location="IIT ISM Dhanbad"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/event3.png"
             />
           </div>
         </div>
@@ -111,14 +111,14 @@ export default function EventsPage() {
               description="Participated with problem statement Lunar Scout Bot. Developed Matlab Models of Rotary Inverted Pendulum and used LQR Control Strategy."
               date="2023-2024"
               location="National Competition"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/eyantra1.png"
             />
             <EventCard
               title="Eyantra 2024-25"
               description="Participated with problem statement Ecomender Bot. Developed Verilog modules for UART Communication, Color Detection, RISC-V Compiler and Path Planning Algorithm."
               date="2024-2025"
               location="National Competition"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/eyantra2.png"
             />
           </div>
         </div>
@@ -133,7 +133,7 @@ export default function EventsPage() {
             <div className="bg-white dark:bg-gray-900 p-4 rounded-lg shadow-md border border-gray-200 dark:border-gray-800 overflow-hidden">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="/images/event2.png"
                   alt="Workshop Photo 1"
                   fill
                   className="object-cover rounded-md"
@@ -146,7 +146,7 @@ export default function EventsPage() {
             <div className="bg-white dark:bg-gray-900 p-4 rounded-lg shadow-md border border-gray-200 dark:border-gray-800 overflow-hidden">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="/images/event3.png"
                   alt="Workshop Photo 2"
                   fill
                   className="object-cover rounded-md"
@@ -157,7 +157,7 @@ export default function EventsPage() {
             <div className="bg-white dark:bg-gray-900 p-4 rounded-lg shadow-md border border-gray-200 dark:border-gray-800 overflow-hidden">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src="/images/event1.png"
                   alt="Workshop Photo 3"
                   fill
                   className="object-cover rounded-md"

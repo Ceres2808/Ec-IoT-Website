@@ -1,8 +1,11 @@
-import { Github, ExternalLink } from "lucide-react"
+"use client"
+
+import { ExternalLink, Github } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
+import { useState } from "react"
 
 interface ProjectCardProps {
   title: string
@@ -13,7 +16,6 @@ interface ProjectCardProps {
   demoLink?: string
   ongoing?: boolean
 }
-
 export default function ProjectCard({
   title,
   description,
@@ -23,6 +25,7 @@ export default function ProjectCard({
   demoLink,
   ongoing = false,
 }: ProjectCardProps) {
+  const [showVideo, setShowVideo] = useState(false)
   return (
     <div className="group bg-white dark:bg-gray-900 rounded-lg shadow-md border border-gray-200 dark:border-gray-800 overflow-hidden transition-all duration-200 hover:shadow-lg">
       <div className="relative">
@@ -54,22 +57,47 @@ export default function ProjectCard({
             ))}
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 mt-4">
           {repoLink && (
             <Button asChild variant="outline" size="sm" className="flex-1">
-              <Link href={repoLink} target="_blank" rel="noopener noreferrer">
+              <Link href={repoLink as string} target="_blank" rel="noopener noreferrer" className="flex items-center">
                 <Github className="h-4 w-4 mr-2" />
                 Repository
               </Link>
             </Button>
           )}
           {demoLink && (
-            <Button asChild size="sm" className="flex-1">
-              <Link href={demoLink} target="_blank" rel="noopener noreferrer">
-                <ExternalLink className="h-4 w-4 mr-2" />
-                Live Demo
-              </Link>
-            </Button>
+            <>
+              <Button asChild size="sm" className="flex-1">
+                <button
+                  type="button"
+                  onClick={() => setShowVideo(true)}
+                  className="flex items-center w-full h-4"
+                >
+                  <ExternalLink className="h-4 w-4 mr-2" />
+                  Live Demo
+                </button>
+              </Button>
+              {showVideo && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+                  <div className="relative bg-white dark:bg-gray-900 rounded-lg shadow-lg p-4 max-w-2xl w-full">
+                    <button
+                      className="absolute top-2 right-2 text-gray-600 dark:text-gray-300 hover:text-red-500"
+                      onClick={() => setShowVideo(false)}
+                      aria-label="Close video"
+                    >
+                      ×
+                    </button>
+                    <video
+                      src={demoLink}
+                      controls
+                      autoPlay
+                      className="w-full h-96 rounded"
+                    />
+                  </div>
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>

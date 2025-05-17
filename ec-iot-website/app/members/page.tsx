@@ -38,11 +38,11 @@ export default function MembersPage() {
         </div>
       </section>
 
-      {/* Executive Committee */}
+      {/* Coordinators */}
       <section className="w-full py-12 md:py-24 bg-blue-50 dark:bg-blue-950 relative overflow-hidden">
         <HeaderEffect />
         <div className="container px-4 md:px-6 relative z-20">
-          <SectionHeading title="Executive Committee" subtitle="Club Leadership" />
+          <SectionHeading title="Coordinators" subtitle="Club Leadership" />
           <div className="grid gap-6 md:grid-cols-2 max-w-2xl mx-auto">
             <TeamMemberCard
               name="Ashutosh Rath"
@@ -50,7 +50,7 @@ export default function MembersPage() {
               department="Electrical Engineering"
               year="3rd Year, UG"
               email="23je0178@iitism.ac.in"
-              linkedin="https://www.linkedin.com/in/ashutosh-rath-a6438928b"
+              linkedin="https://www.linkedin.com/in/ashutosh-rath-a6438928b/"
               image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/coordinator.jpg-VJy4E6Lq5k0csbcQTmSn7zSe6pDbof.jpeg"
             />
             <TeamMemberCard
@@ -70,11 +70,120 @@ export default function MembersPage() {
       <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950">
         <div className="container px-4 md:px-6">
           <SectionHeading title="Active Members" subtitle="Our Talented Team" />
-          <div className="grid gap-4 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid gap-4 md:grid-cols-3 lg:grid-cols-4">
+
+            {/* UG Members (4th Year) */}
+            <TeamMemberCard
+              name="Soumya Ranjan Das"
+              role="Member"
+              department="Electrical Engineering"
+              year="4th Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Harshit Raghuvanshi"
+              role="Member"
+              department="Electrical Engineering"
+              year="4th Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Shreyashi Chakraborty"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="4th Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Dhuruv Goel"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="4th Year, UG"
+              compact={true}
+            />
+
+            {/* UG Members (3rd Year) */}
             <TeamMemberCard
               name="Gorantla Mokshgna"
               role="Member"
               department="Computer Science"
+              year="3rd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Pathan Gulamgaush"
+              role="Member"
+              department="Computer Science & Engineering"
+              year="3rd Year, UG"
+              compact={true}
+            />            
+            <TeamMemberCard
+              name="Ryali Sriram"
+              role="Member"
+              department="Electrical Engineering"
+              year="3rd Year, UG"
+              compact={true}
+            />  
+            <TeamMemberCard
+              name="Arush Srivastava"
+              role="Member"
+              department="Electrical Engineering"
+              year="3rd Year, UG"
+              compact={true}
+            /> 
+            <TeamMemberCard
+              name="Aritra Bera"
+              role="Member"
+              department="Electrical Engineering"
+              year="3rd Year, UG"
+              compact={true}
+            />         
+            <TeamMemberCard
+              name="Swasti Mishra"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="3rd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Kanishk Gupta"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="3rd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Jami Narendra"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="3rd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Mudapalli Mounika"
+              role="Member"
+              department="Mathematics and Computing"
+              year="3rd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Aditya Pratap Singh"
+              role="Member"
+              department="Mathematics and Computing"
+              year="3rd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Abhijeet Singh Rajput"
+              role="Member"
+              department="Mechanical Engineering"
+              year="3rd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Rachit Raj"
+              role="Member"
+              department="Electronics and Communication Engineering"
               year="3rd Year, UG"
               compact={true}
             />
@@ -85,18 +194,13 @@ export default function MembersPage() {
               year="3rd Year, UG"
               compact={true}
             />
+
+            {/* UG Members (2nd Year) */}
             <TeamMemberCard
               name="Pradyumn Agrawal"
               role="Member"
               department="Electronics and Communication Engineering"
               year="2nd Year, UG"
-              compact={true}
-            />
-            <TeamMemberCard
-              name="Pathan Gulamgaush"
-              role="Member"
-              department="Computer Science & Engineering"
-              year="3rd Year, UG"
               compact={true}
             />
             <TeamMemberCard
@@ -121,24 +225,17 @@ export default function MembersPage() {
               compact={true}
             />
             <TeamMemberCard
-              name="Aritra Bera"
+              name="Chirag Rangwani"
               role="Member"
               department="Electrical Engineering"
-              year="3rd Year, UG"
+              year="2nd Year, UG"
               compact={true}
             />
             <TeamMemberCard
-              name="Arush Srivastava"
+              name="Bhavesh Jat"
               role="Member"
               department="Electrical Engineering"
-              year="3rd Year, UG"
-              compact={true}
-            />
-            <TeamMemberCard
-              name="Aditya Pratap Singh"
-              role="Member"
-              department="Mathematics and Computing"
-              year="3rd Year, UG"
+              year="2nd Year, UG"
               compact={true}
             />
             <TeamMemberCard
@@ -156,6 +253,78 @@ export default function MembersPage() {
               compact={true}
             />
             <TeamMemberCard
+              name="Killi Praveen Kumar"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Sirasani Avinash Reddy"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="K Venkatesh"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Bhuvan Kunchum R"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Sukanya"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Piyush Singh"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Dhananjay Jha"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Shivang Sharma"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Yagyesh Agarwal"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Dipak Gupta"
+              role="Member"
+              department="Mining Engineering"
+              year="2nd Year, UG"
+              compact={true}
+            />
+
+            {/* PG Members (2nd Year) */}
+            <TeamMemberCard
               name="Abir Roy"
               role="Member"
               department="Electronics and Communication Engineering (VLSI Design)"
@@ -163,31 +332,14 @@ export default function MembersPage() {
               compact={true}
             />
             <TeamMemberCard
-              name="Chirag Rangwani"
+              name="Ishita Visen"
               role="Member"
-              department="Electrical Engineering"
-              year="2nd Year, UG"
+              department="Electronics and Communication Engineering (VLSI Design)"
+              year="2nd Year, PG"
               compact={true}
             />
-            <TeamMemberCard
-              name="Harshit Raghuvanshi"
-              role="Member"
-              department="Electrical Engineering"
-              year="4th Year, UG"
-              compact={true}
-            />
-            <TeamMemberCard
-              name="Soumya Ranjan Das"
-              role="Member"
-              department="Electrical Engineering"
-              year="4th Year, UG"
-              compact={true}
-            />
-          </div>
+            </div>
           <div className="mt-8 text-center">
-            <p className="text-gray-500 dark:text-gray-400">
-              And many more talented members contributing to our projects and activities!
-            </p>
           </div>
         </div>
       </section>
@@ -208,18 +360,14 @@ export default function MembersPage() {
                 <li>Access to our fully equipped electronics lab and components</li>
                 <li>Opportunity to work on real-world projects and competitions</li>
                 <li>Workshops and training sessions on various technologies</li>
-                <li>Networking with industry professionals and alumni</li>
-                <li>Potential for internship and job opportunities through our industry partners</li>
+                <li>Networking with experienced seniors</li>
+                <li>Potential for internship and job opportunities</li>
               </ul>
               <h3 className="text-xl font-semibold text-blue-600 dark:text-blue-400 mt-6">How to Apply</h3>
               <ol className="list-decimal pl-5 space-y-2 text-gray-500 dark:text-gray-400">
-                <li>Fill out the membership application form (available at the beginning of each semester)</li>
-                <li>Attend the club orientation session</li>
-                <li>Join our Discord server and Slack workspace for communication</li>
+                <li>Fill out the membership application form (available after recruitment is announced)</li>
+                <li>Attend the club orientation sessions</li>
               </ol>
-              <p className="text-gray-500 dark:text-gray-400 md:text-lg mt-4">
-                For more information about joining the club, please contact us at electronics.club.iitism@gmail.com
-              </p>
             </div>
           </div>
         </div>

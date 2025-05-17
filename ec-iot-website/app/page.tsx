@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section */}
-      <section className="relative w-full py-20 md:py-32 overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-950 dark:to-blue-900 relative overflow-hidden">
+      <section className="w-full py-20 md:py-32 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-950 dark:to-blue-900 relative overflow-hidden">
         <HeaderEffect />
         <div className="container px-4 md:px-6 relative z-20">
           <div className="flex flex-col items-center justify-center text-center space-y-8">
@@ -66,7 +66,7 @@ export default function Home() {
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-full max-w-[500px] aspect-video">
                 <Image
-                  src="/placeholder.svg?height=280&width=500"
+                  src="/images/logo.png"
                   alt="Club Activities"
                   width={500}
                   height={280}
@@ -98,19 +98,13 @@ export default function Home() {
               title="Eyantra 2023-24"
               description="Among the top 50 teams who qualified for stage 2 of the competition. Developed Matlab Models of Rotary Inverted Pendulum and used LQR Control Strategy."
               year="2023"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/eyantra1.png"
             />
             <AchievementCard
               title="Eyantra 2024-25"
               description="Participated as a team with problem statement Ecomender Bot. Developed Verilog modules for UART Communication, Color Detection, RISC-V Compiler and Path Planning Algorithm."
               year="2024"
-              image="/placeholder.svg?height=200&width=300"
-            />
-            <AchievementCard
-              title="Electrodesign Battle 2.0"
-              description="Circuit design competition using LTSPICE in Concetto with 25 participating teams."
-              year="2024"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/eyantra2.png"
             />
           </div>
           <div className="flex justify-center mt-8">
@@ -133,19 +127,19 @@ export default function Home() {
               title="Workshop on Sensor Technology"
               description="Conducted by Prof. Kishore Nandapurkar and Prof. Manodipan Sahoo, covering both theory and practical aspects"
               date="September 2024"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/event1.png"
             />
             <EventCard
               title="Internal Workshop on Arduino"
               description="Workshop on Motor and motor drivers with Arduino conducted by pre-final year BTech students"
               date="February 2024"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/event2.png"
             />
             <EventCard
               title="Workshop on LTSPICE"
               description="Conducted by 4th year BTech club seniors with internship experience using the software"
               date="March 2024"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/event3.png"
             />
           </div>
           <div className="flex justify-center mt-8">
