@@ -47,7 +47,7 @@ export default function AboutPage() {
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-full max-w-[500px] aspect-video">
                 <Image
-                  src="/placeholder.svg?height=280&width=500"
+                  src="/images/logo.png"
                   alt="Our Mission"
                   width={500}
                   height={280}

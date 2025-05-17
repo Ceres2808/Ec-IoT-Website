@@ -55,7 +55,7 @@ export default function Navbar() {
               className="h-10 w-10"
             />
             <span className="font-bold text-lg hidden sm:inline-block">Electronics & IoT Club</span>
-            <span className="font-bold text-lg sm:hidden">E&I Club</span>
+            <span className="font-bold text-lg sm:hidden">Electronics Club</span>
           </Link>
         </div>
         <nav className="hidden md:flex gap-6">

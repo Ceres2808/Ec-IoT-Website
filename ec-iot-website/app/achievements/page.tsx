@@ -25,25 +25,19 @@ export default function AchievementsPage() {
       {/* Competition Achievements */}
       <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950">
         <div className="container px-4 md:px-6">
-          <SectionHeading title="Competition Achievements" subtitle="Our Winning Moments" />
+          <SectionHeading title="Competition Achievements" subtitle="Our Best Moments" />
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <AchievementCard
               title="Eyantra 2023-24"
               description="Among the top 50 teams who qualified for stage 2 of the competition. Developed Matlab Models of Rotary Inverted Pendulum and used LQR Control Strategy."
               year="2023"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/eyantra1.png"
             />
             <AchievementCard
               title="Eyantra 2024-25"
               description="Participated with problem statement Ecomender Bot. Developed Verilog modules for UART Communication, Color Detection, RISC-V Compiler and Path Planning Algorithm."
               year="2024"
-              image="/placeholder.svg?height=200&width=300"
-            />
-            <AchievementCard
-              title="Electrodesign Battle 2.0"
-              description="Circuit design competition using LTSPICE in Concetto with 25 participating teams."
-              year="2024"
-              image="/placeholder.svg?height=200&width=300"
+              image="/images/eyantra2.png"
             />
           </div>
         </div>
@@ -78,7 +72,7 @@ export default function AchievementsPage() {
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-800">
               <h3 className="text-xl font-semibold mb-3 text-blue-600 dark:text-blue-400">RFID Security System</h3>
               <p className="text-gray-500 dark:text-gray-400 mb-4">
-                First year students under the guidance of Prof. Manodipan Sahoo are working on an RFID Security System.
+                First-year students are working under the guidance of Professor Manodipan Sahoo on the development of an RFID-based security system.
               </p>
               <div className="flex items-start">
                 <div className="mr-2 mt-1 text-blue-600 dark:text-blue-400">•</div>
