@@ -109,7 +109,7 @@ export default function MembersPage() {
               compact={true}
             />
             <TeamMemberCard
-              name="Shreyashi Chakraborty"
+              name="Rohit Srivastava"
               role="Member"
               department="Electronics and Communication Engineering"
               year="4th Year, UG"
