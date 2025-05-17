@@ -74,6 +74,13 @@ export default function MembersPage() {
 
             {/* UG Members (4th Year) */}
             <TeamMemberCard
+              name="Ayushi Kumari"
+              role="Member"
+              department="Electrical Engineering"
+              year="4th Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
               name="Soumya Ranjan Das"
               role="Member"
               department="Electrical Engineering"
@@ -84,6 +91,27 @@ export default function MembersPage() {
               name="Harshit Raghuvanshi"
               role="Member"
               department="Electrical Engineering"
+              year="4th Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Sona Kumari"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="4th Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Shreya Shradha"
+              role="Member"
+              department="Electronics and Communication Engineering"
+              year="4th Year, UG"
+              compact={true}
+            />
+            <TeamMemberCard
+              name="Shreyashi Chakraborty"
+              role="Member"
+              department="Electronics and Communication Engineering"
               year="4th Year, UG"
               compact={true}
             />
