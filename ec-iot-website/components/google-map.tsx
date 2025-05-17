@@ -154,6 +154,7 @@ export default function GoogleMap() {
   }, [isDarkMode])
 
   return (
+<<<<<<< Updated upstream
     <div className="relative w-full h-full">
       <div ref={mapRef} className="w-full h-full rounded-lg overflow-hidden" />
       {!mapLoaded && (
@@ -164,6 +165,19 @@ export default function GoogleMap() {
           </div>
         </div>
       )}
+=======
+    <div className="relative w-full h-full min-h-[300px] rounded-lg overflow-hidden">
+      <iframe
+        src="https://storage.googleapis.com/maps-solutions-7y5n3nm3au/locator-plus/uldv/locator-plus.html"
+        width="100%"
+        height="100%"
+        style={{ border: 0, minHeight: 300, borderRadius: "0.5rem" }}
+        loading="lazy"
+        allowFullScreen
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Google Map"
+      />
+>>>>>>> Stashed changes
     </div>
   )
 }
