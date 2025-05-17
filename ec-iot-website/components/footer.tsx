@@ -77,7 +77,7 @@ export default function Footer() {
               <p>Electronics and IoT Club</p>
               <p>IIT ISM Dhanbad</p>
               <p>Dhanbad, Jharkhand 826004</p>
-              <p>Email: electronics.club.iitism@gmail.com</p>
+              <p>Email: electronics_iot_club@iitism.ac.in</p>
               <div className="mt-4">
                 <SocialLinks />
               </div>
