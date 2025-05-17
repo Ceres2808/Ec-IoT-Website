@@ -8,7 +8,7 @@ export default function HeaderEffect() {
   const isMobile = useMobile()
 
   useEffect(() => {
-    if (isMobile || !canvasRef.current) return
+    if (!canvasRef.current) return
 
     const canvas = canvasRef.current
     const ctx = canvas.getContext("2d")
@@ -16,10 +16,8 @@ export default function HeaderEffect() {
 
     let width = 0
     let height = 0
-    let mouseX = 0
-    let mouseY = 0
     let particles: Particle[] = []
-    const particleCount = 50
+    const particleCount = isMobile ? 15 : 60
 
     class Particle {
       x: number
@@ -39,16 +37,6 @@ export default function HeaderEffect() {
       }
 
       update() {
-        // Move towards mouse with slight attraction
-        const dx = mouseX - this.x
-        const dy = mouseY - this.y
-        const distance = Math.sqrt(dx * dx + dy * dy)
-
-        if (distance < 100) {
-          this.speedX += dx * 0.01
-          this.speedY += dy * 0.01
-        }
-
         // Apply speed limits
         this.speedX = Math.max(-2, Math.min(2, this.speedX))
         this.speedY = Math.max(-2, Math.min(2, this.speedY))
@@ -96,7 +84,7 @@ export default function HeaderEffect() {
       })
 
       // Draw connections
-      ctx.strokeStyle = "rgba(255, 105, 180, 0.1)"
+      ctx.strokeStyle = "rgba(255, 105, 180, 0.5)"
       ctx.lineWidth = 0.5
       for (let i = 0; i < particles.length; i++) {
         for (let j = i + 1; j < particles.length; j++) {
@@ -116,25 +104,15 @@ export default function HeaderEffect() {
       requestAnimationFrame(animate)
     }
 
-    const handleMouseMove = (e: MouseEvent) => {
-      const rect = canvas.getBoundingClientRect()
-      mouseX = e.clientX - rect.left
-      mouseY = e.clientY - rect.top
-    }
-
     // Initialize
     resizeCanvas()
     window.addEventListener("resize", resizeCanvas)
-    canvas.addEventListener("mousemove", handleMouseMove)
     animate()
 
     return () => {
       window.removeEventListener("resize", resizeCanvas)
-      canvas.removeEventListener("mousemove", handleMouseMove)
     }
   }, [isMobile])
-
-  if (isMobile) return null
 
   return <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none z-10" />
 }

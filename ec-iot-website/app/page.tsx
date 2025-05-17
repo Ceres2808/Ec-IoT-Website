@@ -28,11 +28,15 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row mt-8">
-              <Button asChild className="bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800">
-                <Link href="/projects">
-                  Explore Projects <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
+                <Button
+                  asChild
+                  className="bg-gradient-to-r from-blue-500 to-pink-500 hover:from-pink-600 hover:to-blue-600 dark:from-blue-600 dark:to-pink-600 dark:hover:from-pink-800 dark:hover:to-blue-800 text-white group"
+                >
+                  <Link href="/projects">
+                    Explore Projects{" "}
+                    <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1.5" />
+                  </Link>
+                </Button>
               <Button asChild variant="outline">
                 <Link href="/contact">Contact Us</Link>
               </Button>
@@ -109,9 +113,10 @@ export default function Home() {
           </div>
           <div className="flex justify-center mt-8">
             <Button asChild variant="outline">
-              <Link href="/achievements">
-                View All Achievements <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+                <Link href="/achievements" className="group">
+                View All Achievements{" "}
+                <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1.5" />
+                </Link>
             </Button>
           </div>
         </div>
@@ -144,9 +149,10 @@ export default function Home() {
           </div>
           <div className="flex justify-center mt-8">
             <Button asChild variant="outline">
-              <Link href="/events">
-                View All Events <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+                <Link href="/events" className="group">
+                View All Events{" "}
+                <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1.5" />
+                </Link>
             </Button>
           </div>
         </div>
@@ -164,7 +170,7 @@ export default function Home() {
                 role="Faculty Advisor"
                 department="Electronics and Communication Engineering"
                 email="manodipan@iitism.ac.in"
-                image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FIC.jpg-J3LKeu0KbueTpc8rYaneMgAmX9nGtf.jpeg"
+                image="/images/FIC.jpeg"
               />
             </div>
           </div>
@@ -178,24 +184,25 @@ export default function Home() {
                 year="3rd Year, UG"
                 email="23je0178@iitism.ac.in"
                 linkedin="https://www.linkedin.com/in/ashutosh-rath-a6438928b"
-                image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/coordinator.jpg-VJy4E6Lq5k0csbcQTmSn7zSe6pDbof.jpeg"
+                image="/images/coordinator.jpg"
               />
               <TeamMemberCard
                 name="Prantik Basu"
                 role="Co-Coordinator"
-                department="Electronics and Communication"
+                department="Electronics and Communication Engineering"
                 year="3rd Year, UG"
                 email="prantikbasu23@gmail.com"
                 linkedin="https://www.linkedin.com/in/basuprantik/"
-                image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/co-coordinator-O2JCAcLx7DbdJTETZNhGGzkfBSMIdS.png"
+                image="/images/co-coordinator.png"
               />
             </div>
           </div>
           <div className="flex justify-center mt-8">
             <Button asChild variant="outline">
-              <Link href="/members">
-                View All Members <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+                <Link href="/members" className="group">
+                View All Members{" "}
+                <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1.5" />
+                </Link>
             </Button>
           </div>
         </div>

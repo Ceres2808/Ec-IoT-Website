@@ -52,9 +52,11 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold">Email</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Club Email: electronics.club.iitism@gmail.com
+                    Club Email: electronics_iot_club@iitism.ac.in
                     <br />
-                    Faculty In-Charge: manodipan@iitism.ac.in
+                    Coordinator: 23je0178@iitism.ac.in
+                    <br />
+                    Co-coordinator: prantikbasu23@gmail.com
                   </p>
                 </div>
               </div>

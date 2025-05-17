@@ -27,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <meta name="google-site-verification" content="XqCjcYFq_xmC6VRvYW3pJgvSw4QgM4Myee2xjvl5dGo" />
       <body className={`${poppins.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
           <ScrollToTop />

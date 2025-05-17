@@ -32,7 +32,7 @@ export default function MembersPage() {
               role="Faculty Advisor"
               department="Electronics and Communication Engineering"
               email="manodipan@iitism.ac.in"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FIC.jpg-J3LKeu0KbueTpc8rYaneMgAmX9nGtf.jpeg"
+              image="/images/FIC.jpeg"
             />
           </div>
         </div>
@@ -51,16 +51,16 @@ export default function MembersPage() {
               year="3rd Year, UG"
               email="23je0178@iitism.ac.in"
               linkedin="https://www.linkedin.com/in/ashutosh-rath-a6438928b/"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/coordinator.jpg-VJy4E6Lq5k0csbcQTmSn7zSe6pDbof.jpeg"
+              image="/images/coordinator.jpg"
             />
             <TeamMemberCard
               name="Prantik Basu"
               role="Co-Coordinator"
-              department="Electronics and Communication"
+              department="Electronics and Communication Engineering"
               year="3rd Year, UG"
               email="prantikbasu23@gmail.com"
               linkedin="https://www.linkedin.com/in/basuprantik/"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/co-coordinator-O2JCAcLx7DbdJTETZNhGGzkfBSMIdS.png"
+              image="/images/co-coordinator.png"
             />
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function MembersPage() {
               compact={true}
             />
             <TeamMemberCard
-              name="Shreyashi Chakraborty"
+              name="Rohit Srivastava"
               role="Member"
               department="Electronics and Communication Engineering"
               year="4th Year, UG"
