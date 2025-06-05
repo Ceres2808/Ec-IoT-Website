@@ -25,37 +25,56 @@ export default function EventsPage() {
       {/* Upcoming Events */}
       <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950">
         <div className="container px-4 md:px-6">
+          <SectionHeading title="Upcoming Events" subtitle="What's Next?" />
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <EventCard
+              title="Design of Signal conditioning circuits - 1"
+              description="A workshop on designing signal conditioning circuits for biomedical sensors, focusing on practical applications and theoretical understanding."
+              date="June 2025"
+              location="Online"
+              image="placeholder.svg"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Recent Workshops */}
+      <section className="w-full py-12 md:py-24 bg-blue-50 dark:bg-blue-950 relative overflow-hidden">
+        <HeaderEffect />
+        <div className="container px-4 md:px-6 relative z-20">
           <SectionHeading title="Recent Workshops" subtitle="Learning Opportunities" />
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <EventCard
               title="Workshop on Sensor Technology"
               description="Conducted by Prof. Kishore Nandapurkar and Prof. Manodipan Sahoo, covering both theory and practical aspects"
               date="September 2024"
-              location="IIT ISM Dhanbad"
+              location="NVCTI 2nd floor"
               image="/images/event1.png"
+              participants={35}
             />
             <EventCard
-              title="Internal Workshop on Arduino"
+              title="Internal workshop on Motor drivers"
               description="Workshop on Motor and motor drivers with Arduino conducted by pre-final year BTech students"
               date="February 2024"
-              location="IIT ISM Dhanbad"
+              location="NVCTI 2nd floor"
               image="/images/event2.png"
+              participants={30}
             />
             <EventCard
               title="Workshop on LTSPICE"
               description="Conducted by 4th year BTech club seniors with internship experience using the software"
               date="March 2024"
-              location="IIT ISM Dhanbad"
+              location="NVCTI 2nd floor"
               image="/images/event3.png"
+              participants={30}
             />
           </div>
         </div>
       </section>
 
       {/* Calendar */}
-      <section className="w-full py-12 md:py-24 bg-blue-50 dark:bg-blue-950 relative overflow-hidden">
-        <HeaderEffect />
-        <div className="container px-4 md:px-6 relative z-20">
+      <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950">
+        <div className="container px-4 md:px-6">
           <SectionHeading title="Event Calendar" subtitle="Recent Activities" />
           <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-800">
             <div className="flex items-center justify-center mb-6">
@@ -63,6 +82,13 @@ export default function EventsPage() {
               <h3 className="text-xl font-semibold text-blue-600 dark:text-blue-400">2024 Events</h3>
             </div>
             <div className="space-y-4">
+              <div className="border-l-4 border-blue-600 dark:border-blue-400 pl-4 py-2">
+                <p className="font-semibold">October 2024</p>
+                <p className="text-gray-500 dark:text-gray-400">Electrodesign Battle 2.0</p>
+                <p className="text-sm text-gray-400 dark:text-gray-500">
+                  Circuit design competition using LTSPICE in Concetto
+                </p>
+              </div>
               <div className="border-l-4 border-blue-600 dark:border-blue-400 pl-4 py-2">
                 <p className="font-semibold">September 2024</p>
                 <p className="text-gray-500 dark:text-gray-400">Workshop on Sensor Technology and Application</p>
@@ -88,47 +114,40 @@ export default function EventsPage() {
                   Internal workshop on Motor and motor drivers with Arduino
                 </p>
                 <p className="text-sm text-gray-400 dark:text-gray-500">Conducted by pre-final year BTech students</p>
-              </div>
-              <div className="border-l-4 border-blue-600 dark:border-blue-400 pl-4 py-2">
-                <p className="font-semibold">October 2024</p>
-                <p className="text-gray-500 dark:text-gray-400">Electrodesign Battle 2.0</p>
-                <p className="text-sm text-gray-400 dark:text-gray-500">
-                  Circuit design competition using LTSPICE in Concetto
-                </p>
-              </div>
+              </div>              
             </div>
           </div>
         </div>
       </section>
 
       {/* Past Events */}
-      <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950">
-        <div className="container px-4 md:px-6">
+      <section className="w-full py-12 md:py-24 bg-blue-50 dark:bg-blue-950 relative overflow-hidden">
+        <HeaderEffect />
+        <div className="container px-4 md:px-6 relative z-20">
           <SectionHeading title="Competition Participation" subtitle="Our Teams in Action" />
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-3">
             <EventCard
               title="Eyantra 2023-24"
               description="Participated with problem statement Lunar Scout Bot. Developed Matlab Models of Rotary Inverted Pendulum and used LQR Control Strategy."
               date="2023-2024"
-              location="National Competition"
+              location="IIT Bombay"
               image="/images/eyantra1.png"
             />
             <EventCard
               title="Eyantra 2024-25"
               description="Participated with problem statement Ecomender Bot. Developed Verilog modules for UART Communication, Color Detection, RISC-V Compiler and Path Planning Algorithm."
               date="2024-2025"
-              location="National Competition"
+              location="IIT Bombay"
               image="/images/eyantra2.png"
             />
           </div>
         </div>
       </section>
 
-      {/* Workshop Photos */}
-      <section className="w-full py-12 md:py-24 bg-blue-50 dark:bg-blue-950 relative overflow-hidden">
-        <HeaderEffect />
-        <div className="container px-4 md:px-6 relative z-20">
-          <SectionHeading title="Workshop Photos" subtitle="Glimpses of Our Activities" />
+      {/* Gallery */}
+      <section className="w-full py-12 md:py-24 bg-white dark:bg-gray-950">
+        <div className="container px-4 md:px-6">
+          <SectionHeading title="Gallery" subtitle="Glimpses of Our Activities" />
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white dark:bg-gray-900 p-4 rounded-lg shadow-md border border-gray-200 dark:border-gray-800 overflow-hidden">
               <div className="relative h-48 w-full">
