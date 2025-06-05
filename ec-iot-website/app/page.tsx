@@ -17,26 +17,26 @@ export default function Home() {
         <HeaderEffect />
         <div className="container px-4 md:px-6 relative z-20">
           <div className="flex flex-col items-center justify-center text-center space-y-8">
-            <div className="space-y-2 max-w-3xl">
+            <div className="space-y-4 max-w-3xl mt-5">
               <h1 className="text-4xl md:text-6xl font-bold tracking-tighter glitch-text">ELECTRONICS & IOT CLUB</h1>
               <p className="text-xl md:text-2xl font-medium">IIT ISM DHANBAD</p>
             </div>
-            <div className="mt-4 max-w-2xl text-center">
+            <div className="mt-6 max-w-2xl text-center">
               <p className="text-gray-600 dark:text-gray-300">
                 Fostering innovation, hands-on learning, and collaboration among enthusiasts of electronics and IoT
                 technologies.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row mt-8">
-                <Button
-                  asChild
-                  className="bg-gradient-to-r from-blue-500 to-pink-500 hover:from-pink-600 hover:to-blue-600 dark:from-blue-600 dark:to-pink-600 dark:hover:from-pink-800 dark:hover:to-blue-800 text-white group"
-                >
-                  <Link href="/projects">
-                    Explore Projects{" "}
-                    <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1.5" />
-                  </Link>
-                </Button>
+              <Button
+                asChild
+                className="bg-gradient-to-r from-blue-500 to-pink-500 hover:from-pink-600 hover:to-blue-600 dark:from-blue-600 dark:to-pink-600 dark:hover:from-pink-800 dark:hover:to-blue-800 text-white group"
+              >
+                <Link href="/projects">
+                  Explore Projects{" "}
+                  <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1.5" />
+                </Link>
+              </Button>
               <Button asChild variant="outline">
                 <Link href="/contact">Contact Us</Link>
               </Button>
